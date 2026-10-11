@@ -21,45 +21,6 @@ p {
     line-height: 1.5;
 }
 
-.sportslist {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.box {
-    background-color: #6357577d;
-    color: white;
-    margin: 5px;
-    padding: 7px;
-    list-style: none;
-    border: 1px solid rgba(148, 147, 147, 0.267);
-    border-radius: 15px;
-    text-align: center;
-}
-
-.topper {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-}
-
-#programs {
-    background-color: #b8b6b63b;
-    list-style: none;
-    padding: 20px 25px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    border: 1px solid rgba(148, 147, 147, 0.267);
-}
-
-#programs li {
-    border: 1px solid rgba(148, 147, 147, 0.267);
-    padding: 10px;
-    text-align: center;
-}
-
 #sports-link,
 #history-link {
     display: inline-block;
